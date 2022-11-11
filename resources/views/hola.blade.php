@@ -1,78 +1,77 @@
-
-        <style>
-    body {
-        margin: 0px;    
-        padding: 0px;;
+<estilo>
+    cuerpo{
+        margen: 0px;    
+        relleno: 0px;;
     }
     .contenedor{
     background-image:url("https://wallpaperaccess.com/full/652483.jpg");
-    background-position: center center;
-    background-size: 100%;
-    height: 100%;
-    margin: 0px;
+    Posición de fondo: centro central;
+    Tamaño de fondo: 100%;
+    Altura: 100%;
+    margen: 0px;
     background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+    Tamaño de fondo: cubierta;
+    Pantalla: Flex;
+    justify-content: centro;
     align-items: center;
     }
   
 .mundo{
-margin-left:25px;    
-height: 50px;
-width: 50px;
+margen-izquierda:25px;    
+Altura: 50px;
+Anchura: 50px;
 }
-.a{
-    position: absolute;
-    display: flex;
+.un{
+    Posición: Absoluta;
+    Pantalla: Flex;
 }
 h4{
-    font-size: 20px;
-    margin: 0 auto;
+    tamaño de fuente: 20px;
+    Margen: 0 Auto;
     justify-content: left;
 }
 .t{
-    display: block;
-    height: 60px;
-    width: 60px;
+    Pantalla: Bloque;
+    Altura: 60px;
+    Anchura: 60px;
        
 }
 .abajo1{
-    margin-left: 20px;
-    width:70px;
-    height: 70px;
+    margen izquierdo: 20px;
+    ancho:70px;
+    Altura: 70px;
     
 }
 .abajo{
-    margin-left: 20px;
-    width:400px;
-    height: 370px;
+    margen izquierdo: 20px;
+    ancho:400px;
+    Altura: 370px;
     
 }
 .parrafo img{
-margin-right: 20px;
-  float: left;
+    Margen derecho: 20px;
+  Flotador: izquierda;
 }
 .titulo{
-    color: aliceblue;   
-    text-align: center;
-    justify-items: center;
+    Color: Aliceblue;   
+    alineación de texto: centro;
+    Justify-Items: Centro;
 }
 p{
-    font-size: 20px;
+    tamaño de fuente: 20px;
 }
 .parrafo1{
-    float: right;
+    Flotador: derecha;
 }
 .cartas{
     background-color: azure;
 }
 .contenedor1{
-    width: 90%;
-    min-height:100vh;
-    max-width: 1200px;
-    margin:0 auto;
-    overflow: hidden;
+    Anchura: 90%;
+    Altura mínima: 100VH;
+    Ancho máximo: 1200px;
+    margen:0 auto;
+    desbordamiento: oculto;
 }
 .cartas{
     background-color: rgb(249, 249, 249);
@@ -112,12 +111,12 @@ img{
     width: 50px;
     height: 50px;
 }
-            
 </style>
+
 <div class="a">
     <img class="mundo" src="https://cdn-icons-png.flaticon.com/512/984/984284.png" alt="">
      <h4 class="driner">ViajaConDriner</h4>
-</Div>
+</div>
 
 <div class="contenedor">
     <h1 class="titulo">Lugares turisticos que debes conocer</h1>
@@ -126,8 +125,8 @@ img{
 <div class="t">
     <a href="https://cdn-icons-png.flaticon.com/512/4574/4574365.png ">
     <img class="abajo1" src="https://cdn-icons-png.flaticon.com/512/4151/4151471.png "> </a>
-</Div>
-</Div>
+</div>
+</div>
 <section class="cartas">
 
 <div class="cartas__contenedor1 contenedor1">
@@ -141,11 +140,11 @@ img{
     <p class="cartas__reviw">
         Pocos lugares hay en el Perú que despiertan tanto interés como el espectáculo que representa Machu Picchu para todo el que tenga la fortuna de ir alguna vez en la vida a esta belleza de sitio.
     </p>
-</Div>    
+</div>    
     <img src="http://3.bp.blogspot.com/-FXY-Crs-esE/Us4pp8XYxLI/AAAAAAAABMc/reE3fx_I7SY/s1600/Machu-Picchu.jpg" alt="" class="cartas__imagen">
-</figura>
+</figure>
 
-</sección>
+</section>
 <section class="cartas__body" data-id="1">
 
     <div class="cartas__texto">
