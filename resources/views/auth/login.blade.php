@@ -1,3 +1,43 @@
+
+
+<style>
+		body{
+			background-image: url("https://www.xtrafondos.com/wallpapers/paisaje-al-atardecer-digital-5454.jpg");
+		}
+        .navbar{
+            background-color: black;
+        }
+        .container{
+            margin:0;
+            justify-content: center;
+            justify-items: center;
+            
+        }
+        .card{
+           
+            margin-top: 170px;
+
+        }
+        .redes{
+            display: flex;
+            justify-content: center;
+
+        }
+        img{
+            margin: 20px;
+            width: 50px;
+            height: 50px;
+        }
+        img:hover{
+            background-color: bisque;
+            border-radius: 50%;
+            width:55px ;
+            height: 55px;
+        }
+
+	</style>
+
+
 @extends('layouts.app')
 
 @section('content')
@@ -55,6 +95,7 @@
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
+                                    
                                 </button>
 
                                 @if (Route::has('password.request'))
@@ -62,10 +103,20 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
+
+                                
                             </div>
                         </div>
                     </form>
+                    <div class="redes">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png ">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
+                    
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png">
+</div>
                 </div>
+
+
             </div>
         </div>
     </div>
